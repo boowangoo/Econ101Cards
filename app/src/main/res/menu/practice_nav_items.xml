@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_practice_main_menu"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/nav_practice_menu" />
+
+    <item
+        android:id="@+id/nav_practice_settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        android:title="@string/nav_practice_settings" />
+
+    <item
+        android:id="@+id/nav_practice_bookmark"
+        android:icon="@drawable/ic_bookmark_border_black_24dp"
+        android:title="@string/nav_practice_bookmark" />
+
+    <item
+        android:id="@+id/nav_practice_select_question"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/nav_practice_select_question" />
+</menu>

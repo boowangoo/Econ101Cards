@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical"
+        tools:context=".activities.MainMenuActivity">
+
+        <TextView
+            android:id="@+id/title_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:gravity="center_horizontal"
+            android:text="@string/title_menu"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/menu_btn_practice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_btn_background"
+            android:onClick="startPracticeActivity"
+            android:text="@string/menu_practice" />
+
+        <Button
+            android:id="@+id/menu_btn_stats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_btn_background"
+            android:onClick="startStatsActivity"
+            android:text="@string/menu_stats" />
+
+        <Button
+            android:id="@+id/menu_btn_settings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_btn_background"
+            android:onClick="startSettingsActivity"
+            android:text="@string/menu_settings" />
+
+        <Button
+            android:id="@+id/menu_btn_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_btn_background"
+            android:onClick="startAboutActivity"
+            android:text="@string/menu_about" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

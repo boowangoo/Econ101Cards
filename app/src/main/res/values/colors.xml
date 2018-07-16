@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- i used http://www.htmlcsscolor.com/ to get names -->
+    <color name="econMagicMint">#A8E6CF</color>
+    <color name="econWillowBrook">#DCEDC1</color>
+    <color name="econApricot">#FFD3B6</color>
+    <color name="econSundown">#FFAAA5</color>
+    <color name="econWewak">#FF8B94</color>
+</resources>
